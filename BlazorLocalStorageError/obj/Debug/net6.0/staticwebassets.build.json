@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "IQgbrEmN3vvomXr5u58FO2agXAklaJqtk2aZHIF5ue0=",
+  "Hash": "YKNVVe85HPUYayu9qbnzvsjA3++FZWCxZX7ja5M/3UE=",
   "Source": "BlazorLocalStorageError",
   "BasePath": "_content/BlazorLocalStorageError",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BlazorLocalStorageError\\wwwroot",
       "Source": "BlazorLocalStorageError",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorLocalStorageError.styles.css",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorLocalStorageError.styles.css",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "BlazorLocalStorageError.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorLocalStorageError.styles.css"
+      "OriginalItemSpec": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BlazorLocalStorageError.styles.css"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorLocalStorageError.bundle.scp.css",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorLocalStorageError.bundle.scp.css",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "BlazorLocalStorageError.bundle.scp.css",
       "AssetKind": "All",
@@ -48,13 +48,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorLocalStorageError.bundle.scp.css"
+      "OriginalItemSpec": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorLocalStorageError.bundle.scp.css"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/bootstrap/bootstrap.min.css",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/bootstrap/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/css/open-iconic-bootstrap.min.css",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.eot",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.otf",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.svg",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.ttf",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/font/fonts/open-iconic.woff",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/FONT-LICENSE",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\FONT-LICENSE"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/ICON-LICENSE",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\ICON-LICENSE"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\README.md",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\open-iconic\\README.md",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/open-iconic/README.md",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\css\\open-iconic\\README.md"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\css\\site.css",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\css\\site.css",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\favicon.ico",
+      "Identity": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\favicon.ico",
       "SourceId": "BlazorLocalStorageError",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazorLocalStorageError\\BlazorLocalStorageError\\wwwroot\\",
+      "ContentRoot": "F:\\Repos\\csRepo\\BlazerPractice\\BlazoredLocalStorageErrorExample\\BlazorLocalStorageError\\wwwroot\\",
       "BasePath": "_content/BlazorLocalStorageError",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",

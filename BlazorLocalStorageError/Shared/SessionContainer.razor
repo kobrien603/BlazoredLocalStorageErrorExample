@@ -1,0 +1,38 @@
+﻿@using BlazorLocalStorageError.ViewModels
+
+@implements IDisposable
+
+@if (SessionViewModel.IsLoading)
+{
+    <div class="row">
+        <div class="col">
+            <p class="text-center"><em>Loading...</em></p>
+        </div>
+    </div> 
+}
+else
+{
+    <CascadingValue Value="SessionViewModel">
+        @ChildContent
+    </CascadingValue>
+}
+
+@code {
+    [Inject]
+    public SessionViewModel SessionViewModel { get; set; }
+
+    [Parameter]
+    public RenderFragment ChildContent { get; set; }
+
+    protected override void OnInitialized()
+    {
+        SessionViewModel.OnChange += StateHasChanged;
+        SessionViewModel.Init();
+    }
+
+
+    public void Dispose()
+    {
+        SessionViewModel.OnChange -= StateHasChanged;
+    }
+}

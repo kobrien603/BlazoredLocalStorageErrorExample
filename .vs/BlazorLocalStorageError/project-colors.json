@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "4d818cc3-a501-4cba-8f9a-90ee73c3fe92": {
+      "ProjectGuid": "4d818cc3-a501-4cba-8f9a-90ee73c3fe92",
+      "DisplayName": "BlazorLocalStorageError",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

@@ -1,8 +1,7 @@
-﻿@using BlazorLocalStorageError.ViewModels
+﻿@using BlazorLocalStorageError.Data
+@using System.Text.Json
 
-@implements IDisposable
-
-@if (SessionViewModel.IsLoading)
+@if (IsLoading)
 {
     <div class="row">
         <div class="col">
@@ -12,27 +11,56 @@
 }
 else
 {
-    <CascadingValue Value="SessionViewModel">
+    <CascadingValue Value="ComplexDataModel">
         @ChildContent
     </CascadingValue>
 }
 
 @code {
     [Inject]
-    public SessionViewModel SessionViewModel { get; set; }
+    IJSRuntime JSRuntime { get; set; }
 
     [Parameter]
-    public RenderFragment ChildContent { get; set; }
+    public RenderFragment? ChildContent { get; set; }
 
-    protected override void OnInitialized()
+    public bool IsLoading { get; set; } = true;
+
+    // complex object populated on init
+    public Dictionary<int, ComplexModel> ComplexDataModel { get; set; } = new ComplexModel().GetDefaultComplexModel();
+
+    protected override async Task OnInitializedAsync()
     {
-        SessionViewModel.OnChange += StateHasChanged;
-        SessionViewModel.Init();
+        // first set object in local storage
+        await SetLocalStorageData();
     }
 
-
-    public void Dispose()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        SessionViewModel.OnChange -= StateHasChanged;
+        if (firstRender)
+        {
+            // now fetch it - error occurs in here
+            await GetLocalStorageData();
+
+            // set to false to render child
+            IsLoading = false;
+        }
+    }
+
+    public async Task SetLocalStorageData()
+    {
+        // convert ComplexDataModel to json object and push to local storage
+        string jsObj = JsonSerializer.Serialize(ComplexDataModel);
+        await JSRuntime.InvokeVoidAsync("localStorage.setItem", new object[] { "complexObject", jsObj });
+    }
+
+    public async Task GetLocalStorageData()
+    {
+        // fetch complex object as string from local storage
+        // program crashes at this point.
+        var response = await JSRuntime.InvokeAsync<string>("localStorage.getItem", "complexObject");
+
+        // convert string back to object we want
+        // this does not get hit
+        var newObj = JsonSerializer.Deserialize<Dictionary<int, ComplexModel>>(response);
     }
 }

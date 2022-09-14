@@ -1,7 +1,6 @@
 using Blazored.LocalStorage;
 using Blazored.SessionStorage;
 using BlazorLocalStorageError.Data;
-using BlazorLocalStorageError.ViewModels;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
 
@@ -21,7 +20,6 @@ builder.Services.AddBlazoredSessionStorage();
 builder.Services.AddRazorPages();
 builder.Services.AddServerSideBlazor();
 builder.Services.AddSingleton<WeatherForecastService>();
-builder.Services.AddScoped<SessionViewModel>();
 
 var app = builder.Build();
 
